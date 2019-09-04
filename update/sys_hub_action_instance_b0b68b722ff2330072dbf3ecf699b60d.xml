@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type>
+        <action_type_parent/>
+        <comment>Notify Rishi about the theft :D</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Stolen Hardware">2012cab62f32330072dbf3ecf699b69c</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-26 11:11:24</sys_created_on>
+        <sys_id>b0b68b722ff2330072dbf3ecf699b60d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_b0b68b722ff2330072dbf3ecf699b60d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-26 11:11:24</sys_updated_on>
+        <ui_id>cf09ea66-8717-46ef-b239-c66352e496c6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b0b68b722ff2330072dbf3ecf699b60d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b0b68b722ff2330072dbf3ecf699b60d</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-26 11:11:24</sys_created_on>
+        <sys_id>7cb68b722ff2330072dbf3ecf699b612</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-26 11:11:24</sys_updated_on>
+        <value/>
+        <variable display_value="">c71241160b100300d97d8bf637673a55</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b0b68b722ff2330072dbf3ecf699b60d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>b0b68b722ff2330072dbf3ecf699b60d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-26 11:11:24</sys_created_on>
+        <sys_id>f8b68b722ff2330072dbf3ecf699b612</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-26 11:11:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Following hardware has been stolen:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Device display name:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="354b7225-bf27-450d-800e-a362ef6affbe" data-pillvalue="{{Updated_1.current.display_name}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="354b7225-bf27-450d-800e-a362ef6affbe" data-pillvalue="{{Updated_1.current.display_name}}"&gt;Trigger➛Hardware Record➛Display name&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Assigned to:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="f0978bae-9ae8-4a7d-8eb0-75d2a184383c" data-pillvalue="{{Updated_1.current.assigned_to}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="f0978bae-9ae8-4a7d-8eb0-75d2a184383c" data-pillvalue="{{Updated_1.current.assigned_to}}"&gt;Trigger➛Hardware Record➛Assigned to&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>b0b68b722ff2330072dbf3ecf699b60d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-26 11:11:24</sys_created_on>
+        <sys_id>38b68b722ff2330072dbf3ecf699b612</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-26 11:11:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>Device  {{Updated_1.current.display_name}} is finally stolen</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>b0b68b722ff2330072dbf3ecf699b60d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-26 11:11:24</sys_created_on>
+        <sys_id>74b68b722ff2330072dbf3ecf699b612</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-26 11:11:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>rishi.mishra@fusionpoint.in, {{Updated_1.current.assigned_to}}</value>
+    </sys_element_mapping>
+</record_update>
